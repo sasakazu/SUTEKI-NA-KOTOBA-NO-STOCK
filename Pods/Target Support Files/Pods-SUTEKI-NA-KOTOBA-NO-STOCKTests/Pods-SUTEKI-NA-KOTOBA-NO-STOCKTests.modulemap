@@ -1,0 +1,6 @@
+framework module Pods_SUTEKI_NA_KOTOBA_NO_STOCKTests {
+  umbrella header "Pods-SUTEKI-NA-KOTOBA-NO-STOCKTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
