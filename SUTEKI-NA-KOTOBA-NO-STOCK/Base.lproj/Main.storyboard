@@ -13,7 +13,7 @@
         <!--すてきな言葉のストック-->
         <scene sceneID="FpX-J7-NbK">
             <objects>
-                <viewController id="KDJ-Do-dfE" sceneMemberID="viewController">
+                <viewController id="KDJ-Do-dfE" customClass="mainTable" customModule="SUTEKI_NA_KOTOBA_NO_STOCK" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kpx-AY-igJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="873.91304347826099" y="-208.25892857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="Ocw-CN-b0x">
             <objects>
-                <viewController id="91X-3y-dqj" sceneMemberID="viewController">
+                <viewController id="91X-3y-dqj" customClass="detailViewController" customModule="SUTEKI_NA_KOTOBA_NO_STOCK" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YLf-J8-7qE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -115,10 +115,10 @@
             </objects>
             <point key="canvasLocation" x="1663.7681159420292" y="-208.25892857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Add View Controller-->
         <scene sceneID="unE-5z-UfA">
             <objects>
-                <viewController id="Cuu-30-XqH" sceneMemberID="viewController">
+                <viewController id="Cuu-30-XqH" customClass="addViewController" customModule="SUTEKI_NA_KOTOBA_NO_STOCK" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Wd-S0-YAh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

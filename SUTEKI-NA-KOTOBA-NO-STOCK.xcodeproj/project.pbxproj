@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5D378A6F643114F63DB82D1D /* Pods_SUTEKI_NA_KOTOBA_NO_STOCKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC05CCE103C71009620FDEF /* Pods_SUTEKI_NA_KOTOBA_NO_STOCKTests.framework */; };
+		7311EF062268814E0011B63E /* object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EF052268814E0011B63E /* object.swift */; };
+		7311EF09226885200011B63E /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EF08226885200011B63E /* addViewController.swift */; };
+		7311EF0B226885530011B63E /* mainTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EF0A226885530011B63E /* mainTable.swift */; };
+		7311EF0D226885780011B63E /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EF0C226885780011B63E /* detailViewController.swift */; };
 		73D3D6DA22633BC100CF623C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D3D6D922633BC100CF623C /* AppDelegate.swift */; };
 		73D3D6DC22633BC100CF623C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D3D6DB22633BC100CF623C /* ViewController.swift */; };
 		73D3D6DF22633BC100CF623C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D3D6DD22633BC100CF623C /* Main.storyboard */; };
@@ -41,6 +45,10 @@
 		1E8C1D3E2602577CEA40539D /* Pods-SUTEKI-NA-KOTOBA-NO-STOCK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SUTEKI-NA-KOTOBA-NO-STOCK.debug.xcconfig"; path = "Target Support Files/Pods-SUTEKI-NA-KOTOBA-NO-STOCK/Pods-SUTEKI-NA-KOTOBA-NO-STOCK.debug.xcconfig"; sourceTree = "<group>"; };
 		38BB10B6A8743F1E6E02C545 /* Pods-SUTEKI-NA-KOTOBA-NO-STOCKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SUTEKI-NA-KOTOBA-NO-STOCKTests.debug.xcconfig"; path = "Target Support Files/Pods-SUTEKI-NA-KOTOBA-NO-STOCKTests/Pods-SUTEKI-NA-KOTOBA-NO-STOCKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3BC05CCE103C71009620FDEF /* Pods_SUTEKI_NA_KOTOBA_NO_STOCKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SUTEKI_NA_KOTOBA_NO_STOCKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7311EF052268814E0011B63E /* object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = object.swift; path = "/Users/sasakurakazuya/Dropbox/ios/SUTEKI-NA-KOTOBA-NO-STOCK/SUTEKI-NA-KOTOBA-NO-STOCK/object.swift"; sourceTree = "<absolute>"; };
+		7311EF08226885200011B63E /* addViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
+		7311EF0A226885530011B63E /* mainTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainTable.swift; sourceTree = "<group>"; };
+		7311EF0C226885780011B63E /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		73D3D6D622633BC100CF623C /* SUTEKI-NA-KOTOBA-NO-STOCK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SUTEKI-NA-KOTOBA-NO-STOCK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D3D6D922633BC100CF623C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73D3D6DB22633BC100CF623C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7311EF07226884F30011B63E /* database */ = {
+			isa = PBXGroup;
+			children = (
+				7311EF052268814E0011B63E /* object.swift */,
+			);
+			path = database;
+			sourceTree = "<group>";
+		};
 		73D3D6CD22633BC100CF623C = {
 			isa = PBXGroup;
 			children = (
@@ -116,7 +132,11 @@
 			children = (
 				73D3D6D922633BC100CF623C /* AppDelegate.swift */,
 				73D3D6DB22633BC100CF623C /* ViewController.swift */,
+				7311EF07226884F30011B63E /* database */,
 				73D3D6DD22633BC100CF623C /* Main.storyboard */,
+				7311EF0C226885780011B63E /* detailViewController.swift */,
+				7311EF0A226885530011B63E /* mainTable.swift */,
+				7311EF08226885200011B63E /* addViewController.swift */,
 				73D3D6E022633BC300CF623C /* Assets.xcassets */,
 				73D3D6E222633BC300CF623C /* LaunchScreen.storyboard */,
 				73D3D6E522633BC300CF623C /* Info.plist */,
@@ -162,7 +182,6 @@
 				8B79AC13D7C3501B10C80148 /* Pods-SUTEKI-NA-KOTOBA-NO-STOCKUITests.debug.xcconfig */,
 				9AA2ACE3500FAA5C43420529 /* Pods-SUTEKI-NA-KOTOBA-NO-STOCKUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -396,6 +415,10 @@
 			files = (
 				73D3D6DC22633BC100CF623C /* ViewController.swift in Sources */,
 				73D3D6DA22633BC100CF623C /* AppDelegate.swift in Sources */,
+				7311EF09226885200011B63E /* addViewController.swift in Sources */,
+				7311EF0B226885530011B63E /* mainTable.swift in Sources */,
+				7311EF062268814E0011B63E /* object.swift in Sources */,
+				7311EF0D226885780011B63E /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
